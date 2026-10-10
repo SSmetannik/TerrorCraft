@@ -1,0 +1,27 @@
+settings:
+  # как далеко игрок может отойти от станции во время крафта (в блоках)
+  max-distance: 8
+  # голограмма с этапами над станцией
+  holograms: true
+
+messages:
+  prefix: "&2☣ &aTerrorCraft &8» &7"
+  busy: "&cЗа этой станцией уже работает &f%player%"
+  already-crafting: "&cТы уже готовишь что-то на другой станции"
+  no-permission: "&cУ тебя нет доступа"
+  started: "&aНачинаем: &f%recipe%"
+  success: "&aГотово! &f%recipe% &aв инвентаре"
+  fail: "&cКрафт провален: &f%reason%"
+  items-lost: "&8Ингредиенты испорчены..."
+  wrong-item: "&cЭтот предмет сейчас не нужен"
+  too-far: "Ты отошёл от станции"
+  left-game: "Игрок вышел"
+  time-out: "Время вышло"
+  game-lost: "Мини-игра провалена"
+  gui-closed: "&eОкно закрыто. &7ПКМ по станции — вернуться (время идёт!)"
+  placed: "&aСтанция &f%station% &aустановлена"
+  removed: "&7Станция убрана"
+  unknown-station: "&cСтанции %station% нет в stations.yml"
+  station-busy-break: "&cНельзя сломать станцию, пока на ней готовят"
+  station-protected: "&cЭту станцию нельзя сломать"
+  empty-recipe: "&cУ рецепта нет этапов"

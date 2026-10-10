@@ -1,0 +1,32 @@
+# Станции. Выдать: /tcraft give <id>  (ставится как обычный блок)
+# или сделать станцией любой блок (в т.ч. блок ItemsAdder): посмотри на него и /tcraft bind <id>
+stations:
+  toxic_cauldron:
+    name: "&2☣ Токсичный котёл"
+    item:
+      material: CAULDRON
+      name: "&2☣ Токсичный котёл"
+      lore: ["&7Варка зелий и очистка токсина"]
+    hologram-height: 1.6
+    ambient-particle: BUBBLE_POP
+    recipes: [antidote, purified_essence]
+
+  toxic_forge:
+    name: "&6⚒ Кузня пустоши"
+    item:
+      material: SMITHING_TABLE
+      name: "&6⚒ Кузня пустоши"
+      lore: ["&7Ковка оружия"]
+    hologram-height: 1.6
+    ambient-particle: SMALL_FLAME
+    recipes: [toxic_blade]
+
+  alchemy_table:
+    name: "&d⚗ Стол алхимика"
+    item:
+      material: BREWING_STAND
+      name: "&d⚗ Стол алхимика"
+      lore: ["&7Медицина и снаряжение"]
+    hologram-height: 1.5
+    ambient-particle: ENCHANT
+    recipes: [medkit, gas_filter]
