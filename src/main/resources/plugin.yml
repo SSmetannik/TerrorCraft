@@ -1,0 +1,16 @@
+name: SGMSCraft
+version: 1.2.2
+main: sgms.sgmscraft.SGMSCraft
+api-version: '1.20'
+author: SGMS
+description: Станции крафта с этапами и мини-играми
+softdepend: [ItemsAdder]
+commands:
+  scraft:
+    description: Управление станциями крафта
+    aliases: [tcraft, tc, sgmscraft]
+    usage: /scraft
+permissions:
+  sgmscraft.admin:
+    description: Команды /scraft и ломание станций, привязанных через bind
+    default: op
