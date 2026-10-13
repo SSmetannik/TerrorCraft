@@ -1,4 +1,4 @@
-name: Build TerrorCraft
+name: Build SGMSCraft
 
 on:
   push:
@@ -21,5 +21,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: TerrorCraft
-          path: target/TerrorCraft-*.jar
+          name: SGMSCraft
+          path: target/SGMSCraft-*.jar
